@@ -1,0 +1,21 @@
+{
+    "name": "codeaken/emitter",
+    "description": "PHP implementation of EventEmitter found in NodeJS",
+    "keywords": ["eventemitter", "event", "publish", "subscribe"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Magnus Johansson",
+            "email": "magnus@codeaken.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-0": {
+            "Codeaken\\Emitter\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
